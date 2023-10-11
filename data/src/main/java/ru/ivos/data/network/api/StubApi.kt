@@ -1,11 +1,11 @@
-package ru.ivos.data.features.stub.network.api
+package ru.ivos.data.network.api
 
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody
-import ru.ivos.data.features.stub.network.model.StubRequest
-import ru.ivos.data.features.stub.network.model.StubResponse
+import ru.ivos.data.features.stub.model.StubRequest
+import ru.ivos.data.features.stub.model.StubResponse
 import javax.inject.Inject
 
 class StubApi @Inject constructor(

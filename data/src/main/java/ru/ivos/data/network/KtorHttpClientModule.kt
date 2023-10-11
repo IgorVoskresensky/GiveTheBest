@@ -14,7 +14,8 @@ import io.ktor.client.request.header
 import io.ktor.http.URLProtocol
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
-import ru.ivos.common.utils.BASE_URL
+import ru.ivos.common.utils.constants.BASE_URL
+import ru.ivos.data.network.utils.KtorLogger
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 

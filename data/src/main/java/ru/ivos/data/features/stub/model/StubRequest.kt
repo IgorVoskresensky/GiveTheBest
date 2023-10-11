@@ -1,4 +1,4 @@
-package ru.ivos.data.features.stub.network.model
+package ru.ivos.data.features.stub.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -47,6 +47,7 @@ dependencies {
 
     //Dagger
     implementation(libs.dagger.hilt)
+
     ksp(libs.dagger.hilt.compiler)
     implementation(libs.hilt.navigation)
 
@@ -83,4 +84,8 @@ dependencies {
     testImplementation(libs.kotest.assertions)
     testImplementation(libs.kotest.assertions.arrow)
     testImplementation(libs.kotlinx.coroutines.test)
+    androidTestImplementation(libs.androidx.test.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.ui.test.junit4)
+    androidTestImplementation(libs.mockk)
 }

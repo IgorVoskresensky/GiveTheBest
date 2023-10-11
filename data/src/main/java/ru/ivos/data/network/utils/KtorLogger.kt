@@ -1,4 +1,4 @@
-package ru.ivos.data.network
+package ru.ivos.data.network.utils
 
 import android.util.Log
 import io.ktor.client.plugins.logging.*
