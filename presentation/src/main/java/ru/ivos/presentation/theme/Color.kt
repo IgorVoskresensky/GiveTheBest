@@ -1,4 +1,4 @@
-package ru.ivos.presentation
+package ru.ivos.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

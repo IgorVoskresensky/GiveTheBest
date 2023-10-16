@@ -14,7 +14,7 @@
         android:theme="@style/Theme.GiveTheBest"
         tools:targetApi="34">
         <activity
-            android:name="ru.ivos.presentation.MainActivity"
+            android:name="ru.ivos.presentation.common.activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.GiveTheBest">
